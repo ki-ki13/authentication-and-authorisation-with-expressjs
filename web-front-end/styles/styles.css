@@ -68,7 +68,8 @@ table {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-th, td {
+th,
+td {
     padding: 12px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -96,12 +97,32 @@ button:hover {
     background-color: #0056b3;
 }
 
-.logout-div{
+.logout-div {
     display: flex;
+    flex-direction: column-reverse;
+    gap: 0.9em;
+    justify-content: center;
 }
-.logout-btn{
-    margin: auto;
+
+.logout-btn {
     width: fit-content;
+    margin: auto;
+}
+
+.delete-div {
+    display: flex;
+    gap: 0.9rem;
+    justify-content: center;
+}
+
+.delete-div input {
+    width: fit-content;
+    margin-block: auto
+}
+
+.delete-btn {
+    width: fit-content;
+    background-color: red;
 }
 
 * {
