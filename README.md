@@ -62,4 +62,4 @@ To start the backend server, use the following command:
 node app.js
 ```
 ### Frontend
-To serve the frontend, use liveserver features in VSCode
+To serve the frontend, open the web-front-end/pages and use liveserver features in VSCode
